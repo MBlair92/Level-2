@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+  <h1>Simple Calculator</h1>
+  
+  <div id="calculator">
+    <div class="add">
+      <form name="formPlus">Add Two Numbers:
+          <div>
+              <input name="num1Add" id="num1Add" type="number" placeholder="First Number"/>
+              <div>
+                  <strong> + </strong>
+              </div>
+              <input name="num2Add" id="num2Add" type="number" placeholder="Second Number"/>
+              <button name="add" id="add" type="submit">Add</button>
+          </div>
+      </form>
+    </div>
+  
+    <div class="minus">
+      <form name="formMinus">Minus Two Numbers:
+          <div>
+              <input name="num1Minus" id="num1Minus" type="number" placeholder="First Number"/>
+              <div>
+                  <strong> - </strong>
+              </div>
+              <input name="num2Minus" id="num2Minus" type="number" placeholder="Second Number"/>
+              <button name="minus" id="minus" type="submit">Minus</button>
+          </div>
+      </form>
+    </div>
+
+    <div class="times">
+      <form name="formTimes">Times Two Numbers:
+          <div>
+              <input name="num1Times" id="num1Times" type="number" placeholder="First Number"/>
+              <div>
+                  <strong> * </strong>
+          </div>
+            <input name="num2Times" id="num2Times" type="number" placeholder="Second Number"/>
+            <button name="times" id="times" type="submit">Times</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  
+<span id="result"></span>
+<script src="main.js"></script>
+</body>
+</html>
