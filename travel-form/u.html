@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guest Document</title>
+  </head>
+  <body>
+    <h1>Guest Information</h1>
+    <form id="guestForm">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName"><br><br>
+
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName"><br><br>
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age"><br><br>
+
+      <label for ="gender">Gender:</label>
+      Female: <input type="radio" name="gender" value="Female"/>
+      Male: <input type="radio" name="gender" value="Male"/>
+      Other: <input type="radio" name="gender" value="Other"/><br><br>
+      
+      <label for="destination">Destination:</label>
+      <select id="destination" name="destination">
+        <option value="africa">Africa</option>
+        <option value="thailand">Thailand</option>
+        <option value="jamaica">Jamaica</option>
+      </select><br><br>
+      
+      <lable>Dietary Restrictions</label><br>
+      
+      <input type="checkbox" id="vagan" name="dietaryRestrictions[]" value="vegan">
+      <label for="vegan">Vegan</label><br>
+      <input type="checkbox" id="nut" name="dietaryRestrictions[]" value="nut">
+      <label for="nut">Nut</label><br>
+      <input type="checkbox" id="seafood" name="dietaryRestrictions[]" value="seadfood">
+      <label for="seafood">Seafood</label><br>
+
+      <button type="submit">Submit</button>
+    </form>
+    <script src="u.js"></script>
+  </body>
+</html>
