@@ -1,4 +1,4 @@
-const form = document.querySelector('guestForm');
+const form = document.querySelector('#guestForm');
 
  form.addEventListener('submit', (event) => {
     event.preventDefault();
@@ -11,6 +11,6 @@ const form = document.querySelector('guestForm');
     const destination = formData.get("destination");
     const dietaryRestrictions = formData.get("dietaryRestrictions");
     
-    alert(`FirstName: ${formData.get('firtsName')}\nLastName: ${formData.get('lasName')}\nAge: ${formData.get('age')}\nGender: ${formData.get('gender')}\nDestination: ${formData.get('destination')}\nDietaryRestrictions: ${formData.get('dietaryRestrictions')}`);
+    alert(`FirstName: ${firstName}\nLastName: ${lastName}\nAge: ${formData.get('age')}\nGender: ${formData.get('gender')}\nDestination: ${formData.get('destination')}\nDietaryRestrictions: ${dietaryRestrictions}`);
   });
 
