@@ -6,13 +6,13 @@
 		},
 		{
 			"name": "Salad",
-			"ingredients": ["Lettus", "Tomato", "cucumber", "French Dressing", "Cheese"],
-			"description": "A fresh salad made with tomatoes, onions, crispy cucumbers, and vegan cheese,."
+			"ingredients": ["Lettus", "Tomato", "Cucumber", "French Dressing", "Cheese"],
+			"description": "A fresh salad made with tomatoes, onions, crispy cucumbers, and vegan cheese."
 		}
 	],
 	"cold sandwiches": [{
-			"name": "JSON's Club",
-			"ingredients": ["Turkey", "Bacon", "Lettuce", "Tomato", "Mayo", "Multigrain Bread"],
+			"name": "JSON's Plant Based Club",
+			"ingredients": ["Vegan Ham", "Vegan Bacon", "Lettuce", "Tomato", "Mayo", " Bread"],
 			"description": "A stacked club sandwich featuring layers of turkey, bacon, lettuce, and tomato, served on wholesome multigrain bread."
 		},
 		{
