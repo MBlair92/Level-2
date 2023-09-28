@@ -1,17 +1,17 @@
 //Part 1
 
 function doubleNumbers(arr){
-    return arr.map((num) => num * 2)
+    return arr.map((num) => num * 2)//explain this line
   }
-  console.log(doubleNumbers([2 , 5 , 100]))
+  console.log(doubleNumbers([2 , 5 , 100]))//explain this line
 
 //Part 2
 
 function stringItUp(arr){
-    return arr.map((nums) => nums.toString())
+    return arr.map((nums) => nums.toString())//explain this line
   }
   
-  console.log(stringItUp([2, 5, 100])); 
+  console.log(stringItUp([2, 5, 100])); //explain this line
   // ["2", "5", "100"] ["2", "5", "100"]
   
 
@@ -128,3 +128,13 @@ function namesOnly(arr){
   // "<h1>Paris Hilton</h1><h2>5</h2>",
   // "<h1>Kayne West</h1><h2>16</h2>",
   // "<h1>Bob Ziroll</h1><h2>100</h2>"]
+
+  //Vocabulary
+  // 1. .map
+  // 2. parameter - a place holder
+  // 3. argument
+  // 4.
+  //
+  //
+  //
+  //

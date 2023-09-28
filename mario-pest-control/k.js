@@ -16,4 +16,8 @@
 				const price = parseFloat(priceElements[j].textContent);
 				const total = parseInt(baddieTotals[j].value);
 				const subtotal = price * total;
+				console.log(subtotal)
              }})}
+
+			 //Add a total button
+			
