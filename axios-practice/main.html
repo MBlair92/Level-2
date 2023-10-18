@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Todo App</title>
+</head>
+<body>
+    <h1>Todo List</h1>
+
+    <div id="app">
+        <div>
+            <input type="text" id="todoInput" placeholder="Add a new todo" />
+            <button id="addTodo">Add</button>
+        </div>
+        <ul id="todoList"></ul>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</body>
+</html>
+
+
+const li = document.createElement("li");
+const deleteButton = document.createElement("button");
+deleteButton.innerText = "Delete";
+deleteButton.addEventListener("click", () => {
+    // Remove the todo item when the "Delete" button is clicked
+    todoList.removeChild(li);
+});
